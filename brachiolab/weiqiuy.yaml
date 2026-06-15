@@ -1,5 +1,5 @@
 namespace: brachiolab
-default_queue: default
+default_queue: brachio-default
 role: researcher
 kubeconfig: ~/.kai/kubeconfig.yaml
 config_url: https://raw.githubusercontent.com/BrachioLab/locust-configs/main/brachiolab/weiqiuy.yaml
