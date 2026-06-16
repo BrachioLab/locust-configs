@@ -9,3 +9,4 @@ queue_nodes:
   brachiolab-priority:
   - node3.cl.upenn.edu
   - node5.cl.upenn.edu
+namespace_queues: true
