@@ -1,12 +1,12 @@
 namespace: brachiolab
-default_queue: brachio-collaborators
+default_queue: collaborators
 role: researcher
 kubeconfig: ~/.kai/kubeconfig.yaml
 config_url: https://raw.githubusercontent.com/BrachioLab/locust-configs/main/brachiolab/alokshah.yaml
 config_base_url: https://raw.githubusercontent.com/BrachioLab/locust-configs/main/brachiolab
 allowed_queues:
-- brachio-collaborators
+- brachiolab-collaborators
 queue_nodes:
-  brachio-collaborators:
+  brachiolab-collaborators:
   - node3.cl.upenn.edu
   - node5.cl.upenn.edu
