@@ -1,0 +1,9 @@
+namespace: jacobrg
+default_queue: preemptible
+role: researcher
+kubeconfig: ~/.kai/kubeconfig.yaml
+config_url: https://raw.githubusercontent.com/BrachioLab/locust-configs/main/jacobrg/huangsam.yaml
+config_base_url: https://raw.githubusercontent.com/BrachioLab/locust-configs/main/jacobrg
+queue_nodes:
+  jacobrg-priority: node4.cl.upenn.edu
+namespace_queues: true
