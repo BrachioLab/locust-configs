@@ -7,3 +7,4 @@ config_base_url: https://raw.githubusercontent.com/BrachioLab/locust-configs/mai
 parent_queue: locust
 queue_nodes:
   jacobrg-priority: node4.cl.upenn.edu
+namespace_queues: true
