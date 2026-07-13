@@ -4,8 +4,4 @@ role: researcher
 kubeconfig: ~/.kai/kubeconfig.yaml
 config_url: https://raw.githubusercontent.com/BrachioLab/locust-configs/main/brachiolab/helenjin.yaml
 config_base_url: https://raw.githubusercontent.com/BrachioLab/locust-configs/main/brachiolab
-queue_nodes:
-  brachiolab-priority:
-  - node3.cl.upenn.edu
-  - node5.cl.upenn.edu
 namespace_queues: true
