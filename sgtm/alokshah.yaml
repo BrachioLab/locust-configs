@@ -1,0 +1,7 @@
+namespace: sgtm
+default_queue: preemptible
+role: researcher
+kubeconfig: ~/.kai/kubeconfig.yaml
+config_url: https://raw.githubusercontent.com/BrachioLab/locust-configs/main/sgtm/alokshah.yaml
+config_base_url: https://raw.githubusercontent.com/BrachioLab/locust-configs/main/sgtm
+namespace_queues: true
