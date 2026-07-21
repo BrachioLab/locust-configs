@@ -5,6 +5,6 @@ kubeconfig: ~/.kai/kubeconfig.yaml
 config_url: https://raw.githubusercontent.com/BrachioLab/locust-configs/main/brachiolab/bnkhek.yaml
 config_base_url: https://raw.githubusercontent.com/BrachioLab/locust-configs/main/brachiolab
 allowed_queues:
-- brachiolab-a6000-collaborators
+- brachiolab-collaborators
 - brachiolab-preemptible
 namespace_queues: true
